@@ -1,13 +1,13 @@
 # Strawberry & Pineapple IP Guideline
 
 > Status: Living document  
-> Primary characters: Strawberry and Pineapple  
-> Primary platforms: Instagram and YouTube  
+> Primary characters: Riri / 莉莉 (Strawberry) and Nana / 楠楠 (Pineapple)
+> Primary platforms: Instagram, Facebook, and Xiaohongshu (XHS)
 > Last updated: 2026-09-22
 
 ## 1. Purpose
 
-This document is the source of truth for the Strawberry and Pineapple social-media IP. Use it before developing character artwork, scripts, storyboards, GIFs, memes, short videos, or long-form episodes.
+This document is the source of truth for the Strawberry and Pineapple social-media IP. Use it before developing character artwork, scripts, storyboards, GIFs, memes, or short videos.
 
 The guideline should remain stable at the level of character identity and brand promise. Individual stories may introduce new locations, costumes, props, and emotions as long as they do not contradict the rules below.
 
@@ -17,24 +17,27 @@ The guideline should remain stable at the level of character identity and brand 
 
 - Strawberry and Pineapple are the two primary characters.
 - Strawberry is female.
+- The English IP name is **Riri & Nana**.
+- The Chinese IP name is **莉莉和楠楠**.
+- Strawberry's character name is **Riri / 莉莉**.
+- Pineapple's character name is **Nana / 楠楠**.
 - Their core relationship is coworkers and friends.
 - They do not live together. Each has a separate home, personal routine, private life, and individual preferences.
 - They mainly meet at work and occasionally choose to spend time together outside work.
 - The emotional tone is comforting, relatable, gently funny, and grounded in adult life.
-- Instagram attracts and engages the audience through images, GIFs, memes, and short videos.
-- Most Instagram videos use visual acting, music, ambience, and sound effects without spoken dialogue, human voices, or narration.
-- YouTube is the main home for longer stories, audience retention, and monetization.
+- Instagram, Facebook, and Xiaohongshu (XHS) attract and engage the audience through images, GIFs, memes, and short videos.
+- Short-video episodes have a default duration of **15 seconds**.
+- Most videos use visual acting, music, ambience, and sound effects without spoken dialogue, human voices, or narration.
 - Visual identity follows the established healing-plush character style and canonical character references.
 
 ### To be decided
 
-- Final account and IP name
-- Final English and Chinese character names
+- Final availability confirmation for the working social handle **`@riri_nana`**
 - Primary language and subtitle strategy
 - Each character's specific hobbies, favorite foods, home style, and solo routines
 - Upload schedule and production cadence
 - Whether romance will remain permanently ambiguous
-- Whether any future YouTube format will use narration or spoken voices
+- Whether any future format will use narration or spoken voices
 
 Do not silently convert a `To be decided` item into canon. Record the decision here when it is approved.
 
@@ -64,17 +67,28 @@ Chinese interpretation:
 
 ## 4. Audience
 
-Primary audience:
+Target audience: **General audience**
 
-- Young adults navigating work, relationships, money, fatigue, and everyday uncertainty
-- Viewers who enjoy cozy characters but want emotional truth rather than empty cuteness
-- People likely to share content with a friend using language such as “this is us” or “this is literally me”
+- The content should be welcoming and immediately understandable across age groups and cultures.
+- Adult-life themes may remain central, but the humor and emotions should not depend on mature, technical, or culturally specific knowledge.
+- Viewers should be able to enjoy the characters for their warmth, visual comedy, friendship, and everyday relatability.
 
 The stories should remain accessible internationally. Emotional situations must be understandable without requiring knowledge of a specific workplace culture or internet trend.
 
-## 5. Character profiles
+## 5. Naming system
 
-### Strawberry
+- **English IP name:** Riri & Nana
+- **Chinese IP name:** 莉莉和楠楠
+- **Strawberry:** Riri / 莉莉
+- **Pineapple:** Nana / 楠楠
+- **Working social handle:** `@riri_nana` (tentative; availability and trademark status not yet confirmed)
+- **Recommended bilingual display name:** Riri & Nana｜莉莉和楠楠
+
+Use **Riri** and **Nana** in international-facing titles and captions. Use **莉莉** and **楠楠** in Chinese-language content. On first introduction or where audience context is unclear, use the bilingual form.
+
+## 6. Character profiles
+
+### Riri / 莉莉 (Strawberry)
 
 #### Role
 
@@ -123,7 +137,7 @@ This is a guide for captions, titles, memes, and story intent. It is not normall
 - Her humor is dry, observant, and sometimes expressed through internal monologue.
 - Do not write her as helpless, constantly sad, or fragile. Her sensitivity is also intelligence and strength.
 
-### Pineapple
+### Nana / 楠楠 (Pineapple)
 
 #### Role
 
@@ -172,7 +186,7 @@ This is a guide for captions, titles, memes, and story intent. It is not normall
 - His humor comes from timing, literal interpretation, and confident improvisation.
 - Do not write him as stupid, careless, or only comic relief. His emotional intelligence appears through practical kindness.
 
-## 6. Character relationship
+## 7. Character relationship
 
 ### Canon relationship
 
@@ -207,7 +221,7 @@ They occasionally arrange meals, shopping trips, day trips, celebrations, or cas
 - Preserve personal boundaries: they may go home separately, decline an invitation, enjoy different activities, or have an experience without the other character.
 - Not every story requires both characters. Solo stories should deepen the individual's habits and preferences while preserving the same shared world.
 
-## 7. Story world
+## 8. Story world
 
 Primary recurring spaces:
 
@@ -222,7 +236,7 @@ The world should feel warm and tactile even when the subject is stressful. Every
 
 Their homes must not be visually interchangeable. Once each character's home style and hobbies are approved, record them here and maintain continuity. Do not imply that one routinely sleeps or lives at the other's home.
 
-## 8. Story engine
+## 9. Story engine
 
 ### Default episode formula
 
@@ -232,7 +246,7 @@ Their homes must not be visually interchangeable. Once each character's home sty
 4. A small act of care changes the emotional direction.
 5. End on a warm image, gentle visual joke, or caption-ready idea.
 
-Short form may compress these beats, but it should still provide a complete emotional payoff rather than functioning only as an advertisement.
+The default episode duration is **15 seconds**. Compress these beats into one clear setup, interaction, and payoff; each episode must still feel like a complete miniature story.
 
 For dialogue-free video, replace verbal explanation with a clear visual chain: setup object or situation, readable reaction, physical attempt, consequence, and emotional resolution.
 
@@ -254,7 +268,7 @@ For dialogue-free video, replace verbal explanation with a clear visual chain: s
 - Pineapple runs to work in a panic and discovers Strawberry arrived at the same time.
 - A terrible day ends with the two of them watching an unexpectedly beautiful sunset.
 
-## 9. Tone and writing rules
+## 10. Tone and writing rules
 
 ### Desired tone
 
@@ -266,7 +280,7 @@ For dialogue-free video, replace verbal explanation with a clear visual chain: s
 
 ### Silent visual storytelling
 
-- Instagram video is visual-first and normally contains no spoken dialogue, human voice, or narrator.
+- Short video is visual-first and normally contains no spoken dialogue, human voice, or narrator.
 - Tell the story through eye direction, pauses, posture, paw gestures, prop interaction, entrances and exits, reaction timing, and clear cause and effect.
 - Use music, room ambience, footsteps, fabric movement, object sounds, notification sounds, cooking sounds, and comic sound effects to support the action.
 - The story must remain understandable when muted; sound adds rhythm and emotion but should not carry essential plot information by itself.
@@ -283,13 +297,21 @@ For dialogue-free video, replace verbal explanation with a clear visual chain: s
 - Trend participation that contradicts the established personalities
 - Turning every warm interaction into explicit romance
 - Exposition delivered through voice-over because the visual action is unclear
-- Lip-synced human speech or dialogue-heavy scenes in the default Instagram format
+- Lip-synced human speech or dialogue-heavy scenes in the default short-video format
 
-## 10. Platform roles
+## 11. Format and platform roles
+
+### Default short-clip format
+
+- **Episode duration:** 15 seconds
+- **Story shape:** one immediately readable setup, one character interaction or escalation, and one clear comic or comforting payoff
+- **Audio:** music, ambience, foley, and sound effects; no spoken dialogue, human voice, or narration by default
+- **Clarity:** the story must remain understandable when muted
+- **Framing:** prioritize vertical-first compositions that can be adapted across Instagram, Facebook, and Xiaohongshu
 
 ### Instagram
 
-Instagram is the discovery, sharing, and relationship-building platform.
+Instagram is a primary platform for discovery, sharing, visual identity, and relationship-building.
 
 Its default moving-image language is dialogue-free character performance: visual comedy, expressive pauses, music, ambience, and sound effects. The approach may draw inspiration from the accessibility of classic character brands and dialogue-light comedy, including Sanrio characters and Gudetama, while keeping this IP's character designs, situations, timing, and emotional identity original.
 
@@ -300,7 +322,7 @@ Recommended content mix:
 - **15% GIFs, reaction loops, and sticker-like expressions**
 - **15% episode previews, character moments, and behind-the-scenes material**
 
-Every Instagram post should deliver its own emotion or joke. Calls to action should invite viewers to continue a story on YouTube after receiving value, rather than withholding the entire payoff.
+Every Instagram post should deliver its own complete emotion, joke, or relatable moment.
 
 For Reels and GIFs:
 
@@ -317,34 +339,20 @@ Useful share behavior to design for:
 - “Sending this to my work bestie.”
 - “I needed this today.”
 
-### YouTube
+### Facebook
 
-YouTube is the primary home for complete stories, watch time, deeper attachment, and monetization.
+Facebook extends reach and shareability through short clips, images, GIFs, and relatable posts. Prioritize self-contained 15-second stories that remain clear when viewed without sound and are easy to share with friends or coworkers.
 
-Long-form episodes should retain the same visual-first identity. Music, ambience, foley, and sound design can carry longer emotional arcs. Spoken narration or character voices are not currently established canon and remain a future format decision.
+### Xiaohongshu (XHS)
 
-Recommended content layers:
+Xiaohongshu supports character discovery, visual storytelling, and community interaction. Use localized Chinese captions and titles where helpful, while keeping the video action itself internationally understandable. Posts may include character images, memes, GIFs, behind-the-scenes material, and complete 15-second episodes.
 
-1. **Shorts:** vertical discoveries adapted from short narrative moments
-2. **Regular episodes:** approximately 4–8 minutes, built around one theme or several connected incidents
-3. **Themed compilations:** approximately 15–25 minutes, reorganized around a satisfying emotional theme
+### Cross-platform principles
 
-Do not pad an idea merely to reach a target duration. Combine related mini-stories when a single premise cannot sustain a longer episode.
-
-## 11. Instagram-to-YouTube funnel
-
-1. Introduce a recognizable problem visually and quickly on Instagram.
-2. Deliver a complete joke or emotional beat.
-3. Reveal through action or the final visual beat that the situation continues or has a larger consequence.
-4. Direct viewers to a specifically named YouTube episode.
-5. Keep profile links, pinned posts, titles, thumbnails, and episode naming consistent.
-
-Example:
-
-> She thought Monday was already bad…  
-> Watch the full episode on YouTube: **The Meeting That Could Have Been an Email**
-
-Avoid vague calls to action such as “link in bio” without naming what the viewer will receive.
+- The same core 15-second episode may be adapted for all three platforms without changing character canon.
+- Each upload must stand on its own; do not withhold the ending to force viewers onto another platform.
+- Adapt captions, cover images, titles, and hashtags to each platform while preserving the same story and visual identity.
+- Keep account naming, profile imagery, character naming, and episode labeling consistent across platforms.
 
 ## 12. Visual continuity
 
@@ -384,8 +392,8 @@ Before approving content, ask:
 - Is the humor kind rather than humiliating?
 - Does the ending provide comfort, recognition, or a satisfying laugh?
 - Can the idea be understood internationally?
-- Does the Instagram version stand on its own?
-- Is there a meaningful reason to continue to YouTube?
+- Does the 15-second episode have a clear setup, interaction, and payoff?
+- Does each platform version stand on its own?
 - Does the visual treatment match the canonical character references?
 
 ## 15. Maintenance
