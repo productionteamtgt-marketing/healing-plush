@@ -1,6 +1,0 @@
-interface:
-  display_name: "治愈公仔"
-  short_description: "生成统一系列的治愈系软绒水果、食物与角色公仔图像"
-  default_prompt: "Use $healing-plush to turn my chosen subject into a cozy plush character."
-policy:
-  allow_implicit_invocation: true

@@ -1,9 +1,9 @@
-# Strawberry & Pineapple IP Guideline
+# Mellow Days IP Guideline
 
 > Status: Living document  
 > Primary characters: Riri / 莉莉 (Strawberry) and Nana / 楠楠 (Pineapple)
 > Primary platforms: Instagram, Facebook, and Xiaohongshu (XHS)
-> Last updated: 2026-09-22
+> Last updated: 2026-09-23
 
 ## 1. Purpose
 
@@ -17,8 +17,8 @@ The guideline should remain stable at the level of character identity and brand 
 
 - Strawberry and Pineapple are the two primary characters.
 - Strawberry is female.
-- The English IP name is **Riri & Nana**.
-- The Chinese IP name is **莉莉和楠楠**.
+- The channel and IP name is **Mellow Days**.
+- **莉莉和楠楠** is the Chinese duo label for the two characters, not the channel name.
 - Strawberry's character name is **Riri / 莉莉**.
 - Pineapple's character name is **Nana / 楠楠**.
 - Their core relationship is coworkers and friends.
@@ -77,14 +77,16 @@ The stories should remain accessible internationally. Emotional situations must 
 
 ## 5. Naming system
 
-- **English IP name:** Riri & Nana
-- **Chinese IP name:** 莉莉和楠楠
+- **Channel / IP name:** Mellow Days
+- **Character duo:** Riri & Nana
+- **Chinese character duo:** 莉莉和楠楠
 - **Strawberry:** Riri / 莉莉
 - **Pineapple:** Nana / 楠楠
 - **Working social handle:** `@riri_nana` (tentative; availability and trademark status not yet confirmed)
-- **Recommended bilingual display name:** Riri & Nana｜莉莉和楠楠
+- **Recommended channel display name:** Mellow Days
+- **Optional character-led display line:** Riri & Nana｜莉莉和楠楠
 
-Use **Riri** and **Nana** in international-facing titles and captions. Use **莉莉** and **楠楠** in Chinese-language content. On first introduction or where audience context is unclear, use the bilingual form.
+Use **Mellow Days** as the consistent channel and brand name. Use **Riri** and **Nana** in international-facing titles and captions, and **莉莉** and **楠楠** in Chinese-language content. On first character introduction or where audience context is unclear, use the bilingual character form.
 
 ## 6. Character profiles
 
@@ -357,17 +359,17 @@ Xiaohongshu supports character discovery, visual storytelling, and community int
 ## 12. Visual continuity
 
 - Use the canonical Strawberry and Pineapple character artwork for proportions, face, materials, colors, and silhouette:
-  - Strawberry: `../output/characters/strawberry-plush-turnaround.png`
-  - Pineapple: `../output/characters/pineapple-plush-turnaround.png`
+  - Strawberry: `../../output/characters/strawberry-plush-turnaround.png`
+  - Pineapple: `../../output/characters/pineapple-plush-turnaround.png`
 - Supporting production sheets:
-  - Strawberry five-view: `../output/characters/strawberry-plush-five-view.png`
-  - Strawberry expressions: `../output/characters/strawberry-plush-expressions.png`
-  - Strawberry actions: `../output/characters/strawberry-plush-actions.png`
-  - Strawberry details: `../output/characters/strawberry-plush-details.png`
-  - Pineapple five-view: `../output/characters/pineapple-plush-five-view.png`
-  - Pineapple expressions: `../output/characters/pineapple-plush-expressions.png`
-  - Pineapple actions: `../output/characters/pineapple-plush-actions.png`
-  - Pineapple details: `../output/characters/pineapple-plush-details.png`
+  - Strawberry five-view: `../../output/characters/strawberry-plush-five-view.png`
+  - Strawberry expressions: `../../output/characters/strawberry-plush-expressions.png`
+  - Strawberry actions: `../../output/characters/strawberry-plush-actions.png`
+  - Strawberry details: `../../output/characters/strawberry-plush-details.png`
+  - Pineapple five-view: `../../output/characters/pineapple-plush-five-view.png`
+  - Pineapple expressions: `../../output/characters/pineapple-plush-expressions.png`
+  - Pineapple actions: `../../output/characters/pineapple-plush-actions.png`
+  - Pineapple details: `../../output/characters/pineapple-plush-details.png`
 - Reference priority: the original turnaround controls identity and proportions; the five-view sheet extends viewing angles; expression, action, and detail sheets provide only their named information. A supporting pose must never replace the canonical proportions.
 - Maintain the healing-plush short-fur material, black bean eyes, warm cream face and body treatment, and soft lighting language.
 - Costumes may change with the story, but the underlying silhouette and character identity must remain recognizable.

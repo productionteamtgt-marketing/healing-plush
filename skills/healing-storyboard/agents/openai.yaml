@@ -1,0 +1,6 @@
+interface:
+  display_name: "治愈分镜"
+  short_description: "为软绒公仔设计角色一致、情节连续的多宫格治愈系分镜图"
+  default_prompt: "Use $healing-storyboard to turn my character, season, setting, and event into a coherent storyboard sheet."
+policy:
+  allow_implicit_invocation: true
