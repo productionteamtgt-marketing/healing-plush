@@ -40,7 +40,7 @@ description: 为可爱软绒角色创建情节连贯的多宫格分镜，尤其�
 ## 角色与画面风格
 
 - 角色始终保持可爱呆萌、温柔、无攻击性；避免同一格出现角色复制体。
-- 治愈公仔角色默认头身比约 1:1，大头、短圆身体、短小四肢；暖米色圆脸、纯黑豆豆眼、粉橙腮红、极简小嘴。
+- 治愈公仔角色默认头身比约 1:1，大头、短圆身体、短小四肢；暖米色圆脸、纯黑豆豆眼、粉橙腮红、极简小嘴。睁眼时整颗眼睛必须是纯黑豆豆形，只允许极小高光，不得出现眼白、虹膜或独立瞳孔；左右观察通过轻微转头或倾头表达，不使用移动瞳孔。
 - 角色和主体表面使用细腻短绒，避免塑料感、黏土感和写实人类皮肤。
 - 把用户指定的季节转化成可见线索：窗外植物、花朵、光线、色板或少量室内装饰；保持背景简洁。
 - 默认使用高品质三维家庭动画电影质感、低对比柔和配色、温暖柔光与细腻毛发。
@@ -62,7 +62,7 @@ Continuity: same character identity, costume, environment, props, lighting, and 
 Style/medium: premium 3D family-animation-film storyboard, soft fuzzy plush textures, warm cinematic lighting.
 Text: none.
 Constraints: 【角色关键特征】；动作安全；情节连续；宫格数量准确。
-Avoid: duplicate characters within a panel, inconsistent costume, broken object continuity, captions, panel numbers, speech bubbles, words, logos, watermarks, scary expressions, injury, plastic or clay textures.
+Avoid: duplicate characters within a panel, white sclera, iris, separate pupils or moving pupils, inconsistent costume, broken object continuity, captions, panel numbers, speech bubbles, words, logos, watermarks, scary expressions, injury, plastic or clay textures.
 ```
 
 ## 参考图使用
@@ -121,7 +121,7 @@ Choose a safe, cute source of mild conflict appropriate to the event, such as an
 ## Character and visual style
 
 - Keep characters cute, gentle, and non-aggressive. Do not duplicate a character within one panel.
-- A Healing Plush character defaults to an approximately 1:1 head-to-body ratio, a large head, short rounded body and limbs, warm cream face, pure black bean eyes, peach-pink blush, and minimal mouth.
+- A Healing Plush character defaults to an approximately 1:1 head-to-body ratio, a large head, short rounded body and limbs, warm cream face, pure black bean eyes, peach-pink blush, and minimal mouth. Every open eye must remain one complete solid-black bean with only a tiny highlight—never white sclera, an iris, or a separate pupil. Show looking direction through a subtle head turn or tilt, not a moving pupil.
 - Use fine soft short fur on the character and subject. Avoid plastic, clay, and realistic human-skin surfaces.
 - Express a specified season through visible but restrained cues such as window plants, flowers, light, palette, or a few interior decorations. Keep backgrounds uncluttered.
 - Default to a premium 3D family-animation-film finish with low-contrast soft color, warm diffused light, and fine fur detail.
@@ -143,7 +143,7 @@ Continuity: same character identity, costume, environment, props, lighting, and 
 Style/medium: premium 3D family-animation-film storyboard, soft fuzzy plush textures, warm cinematic lighting.
 Text: none.
 Constraints: [character invariants]; safe action; coherent story; exact panel count.
-Avoid: duplicate characters within a panel, inconsistent costume, broken object continuity, captions, panel numbers, speech bubbles, words, logos, watermarks, scary expressions, injury, plastic or clay textures.
+Avoid: duplicate characters within a panel, white sclera, iris, separate pupils or moving pupils, inconsistent costume, broken object continuity, captions, panel numbers, speech bubbles, words, logos, watermarks, scary expressions, injury, plastic or clay textures.
 ```
 
 ## Using references

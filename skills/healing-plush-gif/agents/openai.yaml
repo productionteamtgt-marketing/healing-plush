@@ -1,0 +1,6 @@
+interface:
+  display_name: "healing-plush-gif"
+  short_description: "拆分16宫格并生成1080×1080逐帧图片与循环GIF"
+  default_prompt: "Use $healing-plush-gif to split my strict 4×4 storyboard into sixteen 1080×1080 frames and create a looping GIF."
+policy:
+  allow_implicit_invocation: true
