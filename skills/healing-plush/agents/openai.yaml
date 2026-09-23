@@ -1,5 +1,5 @@
 interface:
-  display_name: "治愈公仔"
+  display_name: "healing-plush"
   short_description: "生成治愈系软绒角色及完整六图角色设定包"
   default_prompt: "Use $healing-plush to turn my chosen subject into a cozy plush character and deliver the complete six-image character package."
 policy:
