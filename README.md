@@ -55,6 +55,7 @@ skills/healing-storyboard/  → ~/.codex/skills/healing-storyboard/
 ## 维护规则
 
 - `skills/` 下的项目版本是两个 Skill 的 canonical source。
+- 不同画幅和分辨率必须使用明确的比例及像素目录分开存放，例如 `1x1/1080x1080`、`4x3/1448x1086`；不得用 `v1`、`v2` 表示尺寸差异。
 - 修改 Skill 时先更新项目版本，再把完整 bundle 同步到 `~/.codex/skills/`。
 - 所有最终生成资产归档在 `output/`；不要把唯一成品留在图像生成器默认目录。
 
@@ -115,5 +116,6 @@ Each skill must retain both `SKILL.md` and `agents/openai.yaml`. Reopen a Codex 
 ### Maintenance rules
 
 - The project copies under `skills/` are the canonical sources for both skills.
+- Store different aspect ratios and resolutions in separate, explicitly named folders such as `1x1/1080x1080` and `4x3/1448x1086`; never use `v1` or `v2` to represent size differences.
 - Update the project copy first, then synchronize the complete bundle to `~/.codex/skills/`.
 - Archive every final generated asset under `output/`; never leave the only final copy in the image generator's default directory.

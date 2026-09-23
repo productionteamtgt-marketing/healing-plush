@@ -72,6 +72,8 @@ Avoid: duplicate characters within a panel, inconsistent costume, broken object 
 ## 输出归档
 
 - 在 `healing-plush` 项目中使用时，最终分镜图保存到项目根目录的 `output/storyboards/`；若用户要求拆成独立镜头，保存到 `output/frames/<story-name>/`，压缩包保存到 `output/frames/`；GIF 保存到 `output/gifs/`；视频保存到 `output/videos/`。
+- **默认输出尺寸**：16宫格总分镜保持为 **2048×2048 px**；拆分后的16张独立镜头每张保持为 **1080×1080 px**；由这些镜头生成的GIF保持为 **1080×1080 px**。除非用户明确指定其他尺寸，不得降低或改变这三项尺寸。
+- **尺寸版本必须分开存放**：不要用 `v1`、`v2` 区分画幅或分辨率。文件夹及文件名必须明确写出比例和像素，例如 `1x1/1080x1080`、`4x3/1448x1086`。同一故事的不同尺寸不得混放在同一文件夹；`1x1` 与 `4x3` 分开，1080 与 512 等分辨率也分开。冒号不适合跨平台文件名，因此目录中统一用 `1x1`、`4x3` 表示 1:1、4:3。
 - 不写死某位用户的绝对路径；从当前工作区定位包含 `skills/`、`docs/` 与 `output/` 的项目根目录。
 - 使用清晰稳定的英文文件名，例如 `<story-name>-16-panel.png`、`<story-name>/frame-01.png` 至 `frame-16.png`。
 - 默认只在项目 `output/` 中保留最终实体文件；图像生成器默认目录如需维持引用，应使用指向最终文件的链接，避免产生无法分辨的重复副本。
@@ -151,6 +153,8 @@ If several series images are available in the recent conversation, use only the 
 ## Output organization
 
 - In the `healing-plush` project, save complete storyboard sheets under the project root's `output/storyboards/`. If the user requests separate shots, save them under `output/frames/<story-name>/`, store downloadable archives under `output/frames/`, GIFs under `output/gifs/`, and videos under `output/videos/`.
+- **Default output dimensions:** keep the complete 16-panel storyboard at **2048×2048 px**; keep each of the 16 separated frames at **1080×1080 px**; and keep the GIF generated from those frames at **1080×1080 px**. Do not reduce or change these three dimensions unless the user explicitly requests another size.
+- **Separate every size variant:** do not use `v1` or `v2` to distinguish aspect ratios or resolutions. Folder and file names must state the aspect ratio and pixel size explicitly, such as `1x1/1080x1080` or `4x3/1448x1086`. Different sizes of the same story must never share one folder; separate `1x1` from `4x3`, and also separate resolutions such as 1080 and 512. Use filesystem-safe `1x1` and `4x3` in paths to represent 1:1 and 4:3.
 - Never hard-code a particular user's absolute path. Locate the project root containing `skills/`, `docs/`, and `output/` from the current workspace.
 - Use clear, stable English filenames such as `<story-name>-16-panel.png` and `<story-name>/frame-01.png` through `frame-16.png`.
 - Keep final physical files only under the project's `output/` by default. If a generator-default reference must remain valid, use a link to the final file instead of keeping an indistinguishable duplicate.
