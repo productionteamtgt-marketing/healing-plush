@@ -1,0 +1,6 @@
+interface:
+  display_name: "healing-plush-world"
+  short_description: "为治愈公仔建立可连续拍摄、长期复用的统一空间世界观"
+  default_prompt: "Use $healing-plush-world to create a coherent architectural world bible for a new recurring scene."
+policy:
+  allow_implicit_invocation: true
