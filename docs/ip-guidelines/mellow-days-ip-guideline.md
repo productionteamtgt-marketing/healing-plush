@@ -3,7 +3,7 @@
 > Status: Living document  
 > Primary characters: Riri / 莉莉 (Strawberry) and Nana / 楠楠 (Pineapple)
 > Primary platforms: Instagram, Facebook, and Xiaohongshu (XHS)
-> Last updated: 2026-09-23
+> Last updated: 2026-09-29
 
 ## 1. Purpose
 
@@ -29,6 +29,7 @@ The guideline should remain stable at the level of character identity and brand 
 - Short-video episodes have a default duration of **15 seconds**.
 - Most videos use visual acting, music, ambience, and sound effects without spoken dialogue, human voices, or narration.
 - Visual identity follows the established healing-plush character style and canonical character references.
+- Riri's home and the shared office are approved recurring locations with fixed canonical structures. Scene artwork must use the matching world references and may not invent a replacement layout.
 
 ### To be decided
 
@@ -237,6 +238,61 @@ Primary recurring spaces:
 The world should feel warm and tactile even when the subject is stressful. Everyday objects can become part of the comedy, but they must not overwhelm the characters.
 
 Their homes must not be visually interchangeable. Once each character's home style and hobbies are approved, record them here and maintain continuity. Do not imply that one routinely sleeps or lives at the other's home.
+
+### 8.1 Canonical recurring locations｜正式固定场景
+
+Riri's home and the office are now confirmed canon. They are reusable production environments, not loose mood references. For every still image, carousel, storyboard, GIF, animation, or video, determine the story location before image generation and attach the correct canonical world references.
+
+Riri 的家与办公室现已正式确认。它们是可长期复用的制作场景，不是仅供参考的气氛图。制作静态图、轮播图、分镜、GIF、动画或视频前，必须先判断剧情地点，再引用对应的正式空间母版。
+
+#### Riri's home｜Riri 的家
+
+- Use when the story happens at Riri's residence, including arriving home, cooking, eating, resting, watching television, using her laptop, waking, sleeping, washing up, tidying, watering plants, reading, or spending time on the balcony.
+- Structure authority: `output/worlds/riri-home/1x1/riri-home-world-02-plan-circulation.png`.
+- Written rules: `output/worlds/riri-home/riri-home-world-guideline.md`.
+- Select additional references according to the shot:
+  - Public living, dining, kitchen, and balcony: `output/worlds/riri-home/1x1/riri-home-world-03-primary-zone.png`.
+  - Bedroom, bathroom, corridor, and entry: `output/worlds/riri-home/1x1/riri-home-world-04-support-zones.png`.
+  - Furniture and materials: `output/worlds/riri-home/1x1/riri-home-world-05-material-furniture.png`.
+  - Time of day and camera direction: `output/worlds/riri-home/1x1/riri-home-world-06-lighting-camera.png`.
+- Preserve the confirmed plan: bottom-left entrance, entry shoe rack and full-length mirror, middle-left storage cabinet, long wall fully behind the straight two-seat sofa, top-left living room and balcony, center-left two-seat dining area, bottom-right L-shaped kitchen, center-right bathroom, and top-right bedroom with its only desk at the bay window.
+- Do not place a desk in the living room or balcony, change the dining set to more than two chairs, shorten the wall behind the sofa, move the kitchen, remove the balcony, or open the bedroom into the living area.
+
+- 当剧情发生在 Riri 家中，包括回家、做饭、吃饭、休息、看电视、使用笔电、起床、睡觉、洗漱、整理、浇花、阅读或在阳台活动时，必须使用 Riri 家正式场景。
+- 户型结构以 `riri-home-world-02-plan-circulation.png` 为最高权威；其他住宅设定板只能补充区域、材质、灯光与机位，不得改变户型。
+
+#### Shared office｜共同办公室
+
+- Use when either character is working, arriving at work, clocking in, sitting at a workstation, using the pantry, attending a meeting, gossiping at work, taking a break, or working overtime.
+- Spatial identity master: `output/worlds/office/1x1/office-world-01-master.png`.
+- Plan and circulation authority: `output/worlds/office/1x1/office-world-02-plan-circulation.png`.
+- Written rules: `output/worlds/office/office-world-guideline.md`.
+- Select additional references according to the shot:
+  - Entry and workstation zone: `output/worlds/office/1x1/office-world-03-entry-workzone.png`.
+  - Meeting room and enclosed pantry: `output/worlds/office/1x1/office-world-04-meeting-pantry.png`.
+  - Materials and furniture: `output/worlds/office/1x1/office-world-05-material-furniture.png`.
+  - Time of day and camera direction: `output/worlds/office/1x1/office-world-06-lighting-camera.png`.
+- Preserve the confirmed office: one entrance, one main circulation route, window-side workstations, exactly two enclosed rooms—one meeting room and one pantry—and grey task chairs. Every default desk carries only one neutral-grey laptop.
+- Do not add a reception area, visitor lounge, window sofa, third enclosed room, open pantry, residential kitchen, desk lamp, stationery, books, desk plant, cup, external monitor, or non-grey workstation chair unless a temporary story prop is explicitly required.
+
+- 当剧情发生在公司，包括上班、打卡、工位工作、进入茶水间、开会、摸鱼、办公室八卦、休息或加班时，必须使用正式办公室场景。
+- 办公室身份以 `office-world-01-master.png` 锁定，平面与动线以 `office-world-02-plan-circulation.png` 锁定；剧情图不得改变隔间数量、工位方向或家具规则。
+
+#### Scene-selection and reference hierarchy｜场景选择与参考优先级
+
+1. Identify the location from the story before generating any image.
+2. Attach the correct structure master plus the relevant zone board. Do not rely on a previous story frame as the spatial authority.
+3. Attach the canonical character turnaround separately. Character references control character identity; world references control architecture and furniture.
+4. When a story-frame reference conflicts with a canonical world, preserve the canonical world and rebuild the action inside it.
+5. Reverse angles may change what the camera sees, but they may not move doors, windows, rooms, furniture, or circulation.
+6. A new location must receive its own approved world package before becoming a recurring setting. Do not borrow Riri's home or the office structure for another place.
+
+1. 生成前先根据剧情确认地点。
+2. 同时引用正确的结构母版和相关区域设定板，不得把旧剧情图当成空间权威。
+3. 角色五视图与空间母版必须分开引用：角色参考图管理角色身份，空间参考图管理建筑和家具。
+4. 剧情参考图若与正式场景冲突，保留正式场景结构，在正确空间内重新安排动作。
+5. 反打镜头只能改变观察方向，不能移动门窗、房间、家具或动线。
+6. 新地点必须先建立并确认独立空间设定，才能成为长期场景；不得直接套用 Riri 家或办公室的结构。
 
 ## 9. Story engine
 

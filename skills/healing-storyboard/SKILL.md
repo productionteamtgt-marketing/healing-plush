@@ -22,6 +22,24 @@ description: 为可爱软绒角色创建情节连贯的多宫格分镜，尤其�
 - 如果用户已经在同一条消息中提供完整信息，仍先用此模板简短复述并规范化其输入，然后直接继续，不重复提问。
 - `季节` 可以留空；留空时不擅自强化特定季节。角色形象、环境和事件属于生成分镜所需的核心信息。
 
+## 已建立场景的自动解析
+
+在 `healing-plush` 项目中，若用户填写的环境与 `output/worlds/` 下已建立的长期场景相符，必须自动使用该场景的正式世界设定，不能重新设计一个泛化场景。
+
+当环境包含“办公室”“公司”“工位”“茶水间”或“会议室”时，默认解析为 Mellow Days 的正式办公室：
+
+- 先完整读取 `output/worlds/office/office-world-guideline.md`。
+- 始终引用 `output/worlds/office/1x1/office-world-01-master.png` 作为 `canonical world reference`。
+- 涉及入口、移动路线或空间关系时，同时引用 `office-world-02-plan-circulation.png`。
+- 涉及打卡、主通道或开放工位时，同时引用 `office-world-03-entry-workzone.png`。
+- 涉及茶水间或会议室时，同时引用 `office-world-04-meeting-pantry.png`。
+- 涉及桌椅、笔电、材质或固定设备时，同时引用 `office-world-05-material-furniture.png`。
+- 涉及时间变化、天气或镜头连续性时，同时引用 `office-world-06-lighting-camera.png`。
+
+办公室分镜必须保持母版中的建筑布局、两个封闭隔间、窗边工位、蜂蜜橡木桌、中暖灰任务椅、灰色笔电、材质、主通道、屏幕方向和灯光逻辑。剧情临时道具可以进入画面，但不能改变空间母版。只有用户明确要求设计另一间办公室时，才不得套用 Mellow Days 办公室。
+
+若对应世界设定文件缺失，明确告知用户并继续使用其文字环境描述；不得假装已引用不存在的母版。其他未来场景如住宅、餐厅或咖啡厅建立在 `output/worlds/<world-name>/` 后，也按同一方式自动解析并引用其 guideline、master 和相关分区板。
+
 ## 先编排，再生成
 
 生成前先在提示词中写清逐格事件。每格只承担一个主要动作或反应，按阅读顺序形成明确的因果链：建立场景 → 发现目标 → 准备 → 尝试 → 小意外 → 调整 → 完成 → 温暖收尾。
@@ -50,7 +68,7 @@ description: 为可爱软绒角色创建情节连贯的多宫格分镜，尤其�
 ```text
 Use case: illustration-story
 Asset type: 【数量】-panel storyboard contact sheet in one image
-Input images: 【角色参考图的用途；仅作角色身份或风格参考】
+Input images: 【角色原型作为 character identity reference；已建立场景的母版作为 canonical world reference；动作旧图只作 pose/composition reference】
 Primary request: 【角色】在【季节】【环境】中经历【事件】，情绪为可爱呆萌、治愈。
 Layout: EXACTLY 【数量】 equal panels in a strict 【列】×【行】 grid, read left-to-right and top-to-bottom; clear uniform gutters; no merged, missing, extra, or inset panels.
 Storyboard beats:
@@ -149,6 +167,24 @@ Avoid: duplicate characters within a panel, white sclera, iris, separate pupils 
 ## Using references
 
 If several series images are available in the recent conversation, use only the explicitly named character as the identity reference and state that other characters must be ignored. References lock identity and style but must not prevent the new poses, shots, or expressions required by the event.
+
+## Automatically resolve established worlds
+
+Within a `healing-plush` project, when the requested setting matches a recurring world under `output/worlds/`, use that world's canonical references instead of inventing a generic replacement.
+
+When the setting contains “office,” “company,” “workstation,” “pantry,” “break room,” or “meeting room,” resolve it to the established Mellow Days office by default:
+
+- Read `output/worlds/office/office-world-guideline.md` in full.
+- Always reference `output/worlds/office/1x1/office-world-01-master.png` as the `canonical world reference`.
+- Add `office-world-02-plan-circulation.png` for entry, movement, or spatial relationships.
+- Add `office-world-03-entry-workzone.png` for access control, the main corridor, or open workstations.
+- Add `office-world-04-meeting-pantry.png` for pantry or meeting-room scenes.
+- Add `office-world-05-material-furniture.png` for desks, chairs, laptops, materials, or fixed equipment.
+- Add `office-world-06-lighting-camera.png` for time, weather, lighting, or shot continuity.
+
+Office storyboards must preserve the master plan, exactly two enclosed rooms, window-side workstations, honey-oak desks, medium warm-gray task chairs, gray laptops, materials, circulation, screen direction, and lighting logic. Temporary story props may enter the scene but must not redefine the world. Do not apply this office when the user explicitly requests a different office.
+
+If the required world files are missing, disclose that and continue from the user's written setting; never claim to have referenced a nonexistent master. Apply the same automatic resolution to future home, restaurant, cafe, or other worlds once they exist under `output/worlds/<world-name>/`.
 
 ## Output organization
 
