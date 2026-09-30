@@ -7,6 +7,12 @@ description: 将水果、食物、植物、动物或简单物件设计成完整�
 
 使用内置图像生成工具创建统一系列感的治愈系软绒公仔。用户给出主体后，保留其关键辨识特征，将其转化为可拥抱的毛绒角色；除非用户要求，不添加文字、道具或额外角色。
 
+## 项目强制预检
+
+在 `healing-plush` 项目内生成或编辑任何既有 IP 角色前，必须先完整读取 `docs/ip-guidelines/mellow-days-ip-guideline.md`。再按角色直接查看正式原型：Riri 使用 `output/characters/strawberry-plush-turnaround.png`，Nana 使用 `output/characters/pineapple-plush-turnaround.png`；对应的 `*-plush.png` 只补充近景材质与灯光。不得以旧分镜、动作帧、GIF 帧或最近生成结果替代 turnaround。
+
+若图像发生在正式固定场景，还必须先读取对应 world guideline 并引用其母版：办公室为 `output/worlds/office/office-world-guideline.md`，Riri 的家为 `output/worlds/riri-home/riri-home-world-guideline.md`。缺少必需文件时先说明，不得假装已经读取或引用。交付前报告本次使用的 guideline、角色原型、空间母版（如适用）和一致性检查结果；关键身份、眼睛、比例、纹样、材质或场景检查失败时，不得标为完成。
+
 ## 默认交付六张图
 
 每次创建角色，都在同一任务内直接完成以下六份独立图像，不等待用户另行索取设定图或再次确认：
@@ -154,6 +160,12 @@ Avoid: 凭空新增配件、器官或花纹、与原型矛盾的背面、写实�
 # English | Healing Plush
 
 Use the built-in image-generation tool to create a consistent series of cozy fuzzy plush characters. When the user provides a subject, preserve its defining features while turning it into a soft, huggable character. Do not add text, props, or additional characters unless requested.
+
+## Mandatory project preflight
+
+Inside a `healing-plush` project, read `docs/ip-guidelines/mellow-days-ip-guideline.md` in full before generating or editing an established IP character. Directly inspect `output/characters/strawberry-plush-turnaround.png` for Riri or `output/characters/pineapple-plush-turnaround.png` for Nana; the matching `*-plush.png` supplements close material and lighting only. Never substitute an old storyboard, action frame, GIF frame, or recent generation for the turnaround.
+
+For a canonical recurring location, also read its world guideline and use its master references: `output/worlds/office/office-world-guideline.md` for the office or `output/worlds/riri-home/riri-home-world-guideline.md` for Riri's home. Disclose missing required files. Before delivery, report the guideline, character authority, applicable world authority, and consistency result; do not mark a failed identity, eye, proportion, pattern, material, or world-continuity check complete.
 
 ## Default six-image package
 

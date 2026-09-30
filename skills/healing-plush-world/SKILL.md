@@ -5,6 +5,10 @@ description: 为治愈公仔建立具备真实建筑逻辑、连续镜头可行�
 
 # 中文｜治愈公仔空间世界观
 
+## 项目强制预检
+
+在 `healing-plush` 项目中建立或修改空间前，必须先完整读取 `docs/ip-guidelines/mellow-days-ip-guideline.md`。若空间已经存在，还必须完整读取该空间的 world guideline 并查看全部正式设定板；不得把单张剧情图或新生成结果提升为母版。涉及 Riri 或 Nana 时，同时直接查看对应的正式 turnaround，以校准角色尺度。
+
 把一个地点设计成可长期复用的叙事空间系统，而不是单张效果图。空间必须真实可建、动线连续、镜头可执行，并能在后续 AI 视频、动画、Vlog、分镜和静态内容中维持建筑、家具、材质与灯光的一致性。
 
 ## 调用时整理输入
@@ -112,6 +116,10 @@ output/worlds/<world-name>/
 ---
 
 # English | Healing Plush Architectural Worlds
+
+## Mandatory project preflight
+
+Inside a `healing-plush` project, read `docs/ip-guidelines/mellow-days-ip-guideline.md` in full before establishing or revising a world. For an existing world, also read its world guideline and inspect all canonical boards; never promote a one-off story image or recent generation into a master. When Riri or Nana appears, directly inspect the matching canonical turnaround to calibrate character scale.
 
 Design a recurring location as a reusable narrative system rather than a one-off rendering. The world must be architecturally plausible, navigable by a continuous camera, and stable across AI video, animation, vlogs, storyboards, and still content.
 

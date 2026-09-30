@@ -48,7 +48,7 @@ if (( width % 4 != 0 )); then
 fi
 
 cell_size=$((width / 4))
-default_gutter_inset=$((cell_size / 64))
+default_gutter_inset=$((cell_size / 32))
 if (( default_gutter_inset < 2 )); then
   default_gutter_inset=2
 fi

@@ -7,6 +7,10 @@ description: 将严格4×4的16宫格正方形分镜拆成16张1080×1080独立P
 
 把一张严格 `4 columns × 4 rows` 的正方形16宫格分镜，按从左到右、从上到下的顺序拆成16张独立图片，并生成 ZIP 与无限循环 GIF。
 
+## 项目强制预检
+
+在 `healing-plush` 项目内开始前，必须先完整读取 `docs/ip-guidelines/mellow-days-ip-guideline.md` 与本 Skill。查看输入主分镜并确认：严格 4×4、正方形、阅读顺序正确、角色符合正式 turnaround、正式场景符合对应 world guideline、没有明显角色或背景漂移。输入不合格时先说明并修正源分镜；拆帧不能修复生成内容本身的漂移。
+
 ## 默认交付
 
 - 16张 `1080×1080 px` PNG，命名为 `frame-01.png` 至 `frame-16.png`。
@@ -26,7 +30,7 @@ bash scripts/split_storyboard_gif.sh <input-storyboard.png> <story-name> [projec
 - `story-name`：只允许小写英文字母、数字和连字符，例如 `riri-shy-wave-loop`。
 - `project-root`：可选，默认为当前目录；必须包含 `output/` 或允许脚本创建它。
 - `fps`：可选，默认为 `4`。
-- `gutter-inset`：可选，每个画格四边统一向内裁切的像素数；默认按单格宽度的 `1/64` 自动计算，用于彻底排除白色外框与宫格分隔线。
+- `gutter-inset`：可选，每个画格四边统一向内裁切的像素数；默认按单格宽度的 `1/32` 自动计算，用于更可靠地排除白色外框与宫格分隔线。
 
 若调用环境中的 skill 位于 `~/.codex/skills/healing-plush-gif/`，从该 skill 目录运行脚本，或使用脚本的绝对路径。开始前确认系统可以调用 `ffmpeg`、`ffprobe` 和 `zip`。
 
@@ -49,13 +53,17 @@ output/gifs/<story-name>/1x1/1080x1080/
 
 ## 检查
 
-完成后验证：独立 PNG 恰好16张；首尾画格均为1080×1080；ZIP 中恰好16张 PNG且没有系统元数据；GIF 为1080×1080、16帧、指定 FPS并无限循环。向用户提供 frames 文件夹、ZIP 和 GIF 的完整路径。
+完成后验证：独立 PNG 恰好16张且每张都是1080×1080；ZIP 中恰好16张 PNG且没有系统元数据；GIF 为1080×1080、16帧、指定 FPS并无限循环。必须另外检查至少四个角格及首尾帧的四边，确认没有残留宫格白线；把16张帧做成快速 contact sheet 或预览 GIF，确认拆分本身没有造成画面位移。向用户提供 frames 文件夹、ZIP 和 GIF 的完整路径，并报告白边与位移检查结果。
 
 ---
 
 # English | Storyboard to GIF
 
 Split one strict `4 columns × 4 rows` square storyboard into sixteen independent images in left-to-right, top-to-bottom order, then create a ZIP archive and an infinitely looping GIF.
+
+## Mandatory project preflight
+
+Inside a `healing-plush` project, read `docs/ip-guidelines/mellow-days-ip-guideline.md` and this skill in full before processing. Inspect the source sheet for a strict square 4×4 grid, correct reading order, canonical character identity, the matching canonical world, and visible character or background drift. Disclose and correct a failed source storyboard first; extraction cannot repair generation drift.
 
 ## Default deliverables
 
@@ -76,7 +84,7 @@ bash scripts/split_storyboard_gif.sh <input-storyboard.png> <story-name> [projec
 - `story-name`: lowercase letters, digits, and hyphens only, such as `riri-shy-wave-loop`.
 - `project-root`: optional; defaults to the current directory and may contain or create `output/`.
 - `fps`: optional; defaults to `4`.
-- `gutter-inset`: optional; the identical number of pixels cropped inward from every side of every cell. It defaults to `1/64` of one cell's width to exclude white outer borders and grid gutters completely.
+- `gutter-inset`: optional; the identical number of pixels cropped inward from every side of every cell. It defaults to `1/32` of one cell's width to exclude white outer borders and grid gutters more reliably.
 
 When installed under `~/.codex/skills/healing-plush-gif/`, run the script from that skill directory or use its absolute path. Confirm that `ffmpeg`, `ffprobe`, and `zip` are available before starting.
 
@@ -99,4 +107,4 @@ Use exactly the same inward crop, square crop size, and scaling method for all s
 
 ## Validation
 
-Verify exactly sixteen PNG frames; 1080×1080 dimensions for the first and last frames; exactly sixteen PNG entries and no system metadata in the ZIP; and a 1080×1080, 16-frame, requested-FPS, infinitely looping GIF. Report full paths to the frames folder, ZIP, and GIF.
+Verify exactly sixteen 1080×1080 PNG frames; exactly sixteen PNG entries and no system metadata in the ZIP; and a 1080×1080, 16-frame, requested-FPS, infinitely looping GIF. Also inspect the edges of at least the four corner cells and the first and last frames for residual grid-line borders, and review a contact sheet or GIF preview to confirm that extraction introduced no movement. Report full paths and the border/movement validation result.

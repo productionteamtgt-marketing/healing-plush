@@ -2,7 +2,7 @@
 
 ## 中文说明
 
-`healing-plush` 是治愈系软绒角色项目，包含三个可独立安装的 Codex Skill、Mellow Days IP guideline，以及角色和分镜成品。
+`healing-plush` 是治愈系软绒角色项目，包含四个可独立安装的 Codex Skill、Mellow Days IP guideline，以及角色、空间和分镜成品。仓库根目录的 `AGENTS.md` 是团队使用 Codex 时的强制制作入口。
 
 ## 目录
 
@@ -11,7 +11,8 @@ healing-plush/
 ├── skills/
 │   ├── healing-plush/          # 角色设计与完整六图角色包
 │   ├── healing-storyboard/     # 多宫格连续分镜
-│   └── healing-plush-gif/      # 16宫格拆帧与循环GIF
+│   ├── healing-plush-gif/      # 16宫格拆帧与循环GIF
+│   └── healing-plush-world/    # 可长期复用的固定空间世界
 ├── docs/
 │   └── ip-guidelines/          # 品牌、角色与内容规范
 └── output/
@@ -41,6 +42,11 @@ healing-plush/
 - 路径：[`skills/healing-plush-gif/`](skills/healing-plush-gif/)
 - 用途：把严格4×4分镜拆成16张1080×1080图片、ZIP及循环GIF。
 
+### healing-plush-world
+
+- 路径：[`skills/healing-plush-world/`](skills/healing-plush-world/)
+- 用途：建立或修改具备真实建筑逻辑和连续镜头能力的固定叙事空间。
+
 ## IP Guideline
 
 - [`Mellow Days IP Guideline`](docs/ip-guidelines/mellow-days-ip-guideline.md)
@@ -49,15 +55,16 @@ healing-plush/
 
 ## 安装 Skills
 
-把以下三个完整文件夹分别复制到使用者的 `~/.codex/skills/`：
+团队成员应先在 Codex 中打开克隆后的 `healing-plush` 仓库作为工作区，让根目录 `AGENTS.md` 自动生效。再把以下四个完整文件夹分别复制到使用者的 `~/.codex/skills/`：
 
 ```text
 skills/healing-plush/       → ~/.codex/skills/healing-plush/
 skills/healing-storyboard/  → ~/.codex/skills/healing-storyboard/
 skills/healing-plush-gif/   → ~/.codex/skills/healing-plush-gif/
+skills/healing-plush-world/ → ~/.codex/skills/healing-plush-world/
 ```
 
-每个 Skill 都必须保留完整目录；其中 `healing-plush-gif` 还包含必要脚本。安装后重新打开 Codex task，即可调用 `$healing-plush`、`$healing-storyboard` 与 `$healing-plush-gif`。
+每个 Skill 都必须保留完整目录；其中 `healing-plush-gif` 还包含必要脚本。安装后重新打开 Codex task，即可调用 `$healing-plush`、`$healing-storyboard`、`$healing-plush-gif` 与 `$healing-plush-world`。
 
 ## 维护规则
 
@@ -70,7 +77,7 @@ skills/healing-plush-gif/   → ~/.codex/skills/healing-plush-gif/
 
 ## English
 
-`healing-plush` is a cozy plush-character project containing three independently installable Codex skills, the Mellow Days IP guideline, and finished character and storyboard assets.
+`healing-plush` is a cozy plush-character project containing four independently installable Codex skills, the Mellow Days IP guideline, and finished character, world, and storyboard assets. The root `AGENTS.md` is the mandatory Codex production entry point for the team.
 
 ### Project structure
 
@@ -79,7 +86,8 @@ healing-plush/
 ├── skills/
 │   ├── healing-plush/          # Character design and complete six-image package
 │   ├── healing-storyboard/     # Coherent multi-panel storyboards
-│   └── healing-plush-gif/      # Sixteen-panel splitting and looping GIFs
+│   ├── healing-plush-gif/      # Sixteen-panel splitting and looping GIFs
+│   └── healing-plush-world/    # Persistent architectural story worlds
 ├── docs/
 │   └── ip-guidelines/          # Brand, character, and content rules
 └── output/
@@ -109,6 +117,11 @@ healing-plush/
 - Location: [`skills/healing-plush-gif/`](skills/healing-plush-gif/)
 - Purpose: split a strict 4×4 storyboard into sixteen 1080×1080 frames, a ZIP archive, and a looping GIF.
 
+#### healing-plush-world
+
+- Location: [`skills/healing-plush-world/`](skills/healing-plush-world/)
+- Purpose: establish or revise a recurring location with plausible architecture and continuous-camera logic.
+
 ### IP guideline
 
 - [`Mellow Days IP Guideline`](docs/ip-guidelines/mellow-days-ip-guideline.md)
@@ -117,15 +130,16 @@ healing-plush/
 
 ### Installing the skills
 
-Copy all three complete skill folders into the user's `~/.codex/skills/` directory:
+First open the cloned `healing-plush` repository itself as the Codex workspace so its root `AGENTS.md` is automatically applied. Then copy all four complete skill folders into the user's `~/.codex/skills/` directory:
 
 ```text
 skills/healing-plush/       → ~/.codex/skills/healing-plush/
 skills/healing-storyboard/  → ~/.codex/skills/healing-storyboard/
 skills/healing-plush-gif/   → ~/.codex/skills/healing-plush-gif/
+skills/healing-plush-world/ → ~/.codex/skills/healing-plush-world/
 ```
 
-Each skill must retain its complete directory; `healing-plush-gif` also includes a required script. Reopen a Codex task after installation, then invoke `$healing-plush`, `$healing-storyboard`, or `$healing-plush-gif`.
+Each skill must retain its complete directory; `healing-plush-gif` also includes a required script. Reopen a Codex task after installation, then invoke `$healing-plush`, `$healing-storyboard`, `$healing-plush-gif`, or `$healing-plush-world`.
 
 ### Maintenance rules
 

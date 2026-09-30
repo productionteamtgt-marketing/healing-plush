@@ -7,6 +7,12 @@ description: 为可爱软绒角色创建情节连贯的多宫格分镜，尤其�
 
 使用内置图像生成工具，把用户指定的角色、季节、环境与事件设计成一张连续、易读、可爱呆萌的多宫格分镜图。若用户提供或指向现有角色图，将它作为角色身份参考；若角色属于「治愈公仔」系列，延续其软绒玩偶质感、豆豆眼、短圆比例与温馨柔光。
 
+## 项目强制预检
+
+在 `healing-plush` 项目内制作分镜前，必须先完整读取 `docs/ip-guidelines/mellow-days-ip-guideline.md`，再直接查看出场角色的正式 turnaround：Riri 使用 `output/characters/strawberry-plush-turnaround.png`，Nana 使用 `output/characters/pineapple-plush-turnaround.png`。所有最终画格都必须以 turnaround 锁定身份；旧分镜、动作图或场景图只能提供动作、服装、道具和机位，不能成为身份原型。
+
+先解析地点。若地点属于正式世界，必须完整读取相应 world guideline，并把空间母版与当前镜头需要的分区板作为直接参考。必需文件缺失时先说明，不得用通用办公室或通用公寓冒充正式场景。交付前逐格检查角色身份、眼睛、比例、纹样、短绒材质、建筑布局、家具身份、服装、道具状态、光向和镜头轴线；关键项失败时先修正分镜，不得把问题留给拆帧或 GIF 阶段。
+
 ## 每次调用时先展示输入格式
 
 每次用户显式调用 `$healing-storyboard` 时，先向用户展示以下输入模板：
@@ -39,6 +45,14 @@ description: 为可爱软绒角色创建情节连贯的多宫格分镜，尤其�
 办公室分镜必须保持母版中的建筑布局、两个封闭隔间、窗边工位、蜂蜜橡木桌、中暖灰任务椅、灰色笔电、材质、主通道、屏幕方向和灯光逻辑。剧情临时道具可以进入画面，但不能改变空间母版。只有用户明确要求设计另一间办公室时，才不得套用 Mellow Days 办公室。
 
 若对应世界设定文件缺失，明确告知用户并继续使用其文字环境描述；不得假装已引用不存在的母版。其他未来场景如住宅、餐厅或咖啡厅建立在 `output/worlds/<world-name>/` 后，也按同一方式自动解析并引用其 guideline、master 和相关分区板。
+
+当环境明确为“Riri 的家”“莉莉的家”或 Riri 住所内的公寓、卧室、客厅、阳台、厨房时，默认解析为已确认的 Riri Home：
+
+- 完整读取 `output/worlds/riri-home/riri-home-world-guideline.md`。
+- 户型结构始终直接引用 `output/worlds/riri-home/1x1/riri-home-world-02-plan-circulation.png`，它是唯一结构母版。
+- 公共客餐厨或阳台镜头增加 `riri-home-world-03-primary-zone.png`；卧室、卫生间、走廊或玄关增加 `riri-home-world-04-support-zones.png`。
+- 家具材质镜头增加 `riri-home-world-05-material-furniture.png`；时间、天气或连续机位增加 `riri-home-world-06-lighting-camera.png`。
+- 不得在客厅或阳台新增书桌、改变两人餐桌、缩短沙发背墙、移动厨房、删除阳台或把卧室打开到客厅。
 
 ## 先编排，再生成
 
@@ -105,6 +119,12 @@ Avoid: duplicate characters within a panel, white sclera, iris, separate pupils 
 # English | Healing Storyboard
 
 Use the built-in image-generation tool to turn the user's character, season, setting, and event into a coherent, readable, cute multi-panel storyboard. When the user provides or points to an existing character image, treat it as the identity reference. For characters from the Healing Plush series, preserve their fuzzy plush material, black bean eyes, short rounded proportions, and warm soft lighting.
+
+## Mandatory project preflight
+
+Inside a `healing-plush` project, read `docs/ip-guidelines/mellow-days-ip-guideline.md` in full before creating a storyboard, then directly inspect `output/characters/strawberry-plush-turnaround.png` for Riri and `output/characters/pineapple-plush-turnaround.png` for Nana. Every final panel must use the turnaround to lock identity. Old storyboards, action sheets, and scene images may provide action, costume, props, and camera only.
+
+Resolve the location before generation. For an established world, read its world guideline in full and directly reference the master plus relevant zone boards. Disclose missing required files and never substitute a generic office or apartment. Before delivery, inspect every panel for character identity, eyes, proportions, patterns, short-fur material, architecture, furniture identity, costume, prop state, light direction, and screen axis. Correct critical failures in the storyboard rather than passing them to the splitting or GIF stage.
 
 ## Show the input format on every explicit invocation
 
@@ -185,6 +205,8 @@ When the setting contains “office,” “company,” “workstation,” “pan
 Office storyboards must preserve the master plan, exactly two enclosed rooms, window-side workstations, honey-oak desks, medium warm-gray task chairs, gray laptops, materials, circulation, screen direction, and lighting logic. Temporary story props may enter the scene but must not redefine the world. Do not apply this office when the user explicitly requests a different office.
 
 If the required world files are missing, disclose that and continue from the user's written setting; never claim to have referenced a nonexistent master. Apply the same automatic resolution to future home, restaurant, cafe, or other worlds once they exist under `output/worlds/<world-name>/`.
+
+When the setting clearly means Riri's residence—such as Riri's home, apartment, bedroom, living room, balcony, or home kitchen—read `output/worlds/riri-home/riri-home-world-guideline.md` in full and always use `output/worlds/riri-home/1x1/riri-home-world-02-plan-circulation.png` as the sole layout authority. Add `03-primary-zone` for living/dining/kitchen/balcony shots, `04-support-zones` for bedroom/bathroom/corridor/entry, `05-material-furniture` for fixed furnishing detail, and `06-lighting-camera` for time, weather, and shot continuity. Never add a living-room or balcony desk, enlarge the two-seat dining set, shorten the sofa wall, move the kitchen, remove the balcony, or open the bedroom into the living area.
 
 ## Output organization
 

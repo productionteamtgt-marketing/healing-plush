@@ -3,13 +3,39 @@
 > Status: Living document  
 > Primary characters: Riri / 莉莉 (Strawberry) and Nana / 楠楠 (Pineapple)
 > Primary platforms: Instagram, Facebook, and Xiaohongshu (XHS)
-> Last updated: 2026-09-29
+> Last updated: 2026-09-30
 
 ## 1. Purpose
 
 This document is the source of truth for the Strawberry and Pineapple social-media IP. Use it before developing character artwork, scripts, storyboards, GIFs, memes, or short videos.
 
 The guideline should remain stable at the level of character identity and brand promise. Individual stories may introduce new locations, costumes, props, and emotions as long as they do not contradict the rules below.
+
+## 1.1 Mandatory production protocol｜强制制作流程
+
+This file must be read before every Mellow Days character image, social post, carousel, storyboard, GIF, animation, or video is generated or edited. Reading only a past prompt or recent output is not sufficient.
+
+每次生成或修改 Mellow Days 的角色图、社交贴文、轮播图、分镜、GIF、动画或视频前，都必须先读取本文件。只读取过去提示词或最近生成结果不算完成预检。
+
+Use this authority order whenever references conflict:
+
+1. This IP guideline controls names, personalities, relationships, story rules, and production behavior.
+2. The named character's canonical turnaround controls identity, silhouette, proportions, face, limbs, patterns, colors, and plush construction.
+3. The canonical world plan/master and its written guideline control architecture, furniture identity, circulation, screen direction, and recurring lighting logic.
+4. Expression and action sheets control only the expression or action they demonstrate.
+5. Storyboards, GIF frames, prior posts, and recent generations are pose/composition references only and never become canon automatically.
+
+发生冲突时，按以上顺序处理。若正式参考缺失、互相矛盾或无法读取，必须在生成前报告，不得自行猜测后声称符合规范。
+
+Before delivery, validate and report:
+
+- Character identity: correct turnaround, silhouette, proportions, face position, solid-black bean eyes without sclera, pattern distribution, leaf/crown construction, colors, and dense short fur.
+- World continuity: correct location master, plan, furniture, props, circulation, camera axis, time, and light direction.
+- Story continuity: panel order, costume, object states, action causality, emotional arc, and absence of unexplained duplicates.
+- Technical output: requested aspect ratio and dimensions, stable naming and folders, no text or watermark unless requested, and no unintended borders.
+- GIF workflow: exactly sixteen frames when sourced from a 4×4 sheet, identical crop coordinates and scale, 1080×1080 outputs, clean edges, no extraction-induced movement, correct frame count, FPS, and infinite loop.
+
+An asset that fails a critical item must be corrected or clearly reported as not approved; it must not be labeled final merely because a file was produced.
 
 ## 2. Current decisions
 
