@@ -31,6 +31,14 @@
 - Riri 家镜头必须以 `riri-home-world-02-plan-circulation.png` 为唯一户型母版，并按镜头引用区域、家具或灯光板；不得生成通用公寓替代。
 - 未建立正式世界的地点可以新设计，但一张剧情图不能自动成为新的空间母版。
 
+### 固定空间的布局验收门禁
+
+- 生成前，先根据正式俯视母版确定可实现的机位，并逐项写清镜头可见的固定墙体、门窗、家具和设备：相邻关系、从左到右顺序、操作面朝向、门扇开启方向及通行净空。画面好看不能成为移动固定设备的理由；旧剧情图只可辅助动作与构图。
+- Riri 家厨房必须固定在户型右下角。底部主操作台从左到右为储物／备餐、炉灶与嵌入式烤箱、水槽；银色高冰箱位于最右端，紧邻右墙短回转。炉灶旋钮、烤箱门、水槽操作侧和冰箱门必须依空间规范朝向室内；冰箱左侧开门与站立区域必须净空。不得把炉灶和水槽拆到两面不同的墙、移动冰箱、增加岛台，或把设备操作面翻向墙壁。
+- 如果选定机位无法同时合理看到所需设备，应调整机位或拆成近景镜头，不能改变母版来迎合构图。
+- 固定场景的多图系列必须先生成并检查首张场景锚点图，确认固定设备位置与机位吻合后再制作其余图。每张最终成图都要和母版逐项比对；仅在提示词中写了“严格遵照母版”不算通过验收。
+- 任何一张出现关键结构、设备顺序、朝向或动线错误，就先修正并复查全组；不得把该组标为正式、可发布或已完成。若无法修正，必须明确报告未通过及原因，不得悄悄交付。
+
 ### 分镜、拆帧与 GIF 门禁
 
 - 16 宫格主分镜：严格 4×4、2048×2048、统一分隔线、从左到右再从上到下阅读。
@@ -58,6 +66,10 @@ Do not rely only on conversation memory, old storyboards, action frames, GIF fra
 Use `strawberry-plush-turnaround.png` and `pineapple-plush-turnaround.png` as the direct identity and proportion authorities for Riri and Nana respectively; use the matching scene portrait only for close material and lighting. Every final character image and storyboard frame must directly reference the relevant turnaround. Scene images may supply pose, costume, props, camera, and environment but may never replace the prototype.
 
 Office scenes must use the canonical office boards. Riri-home scenes must use `riri-home-world-02-plan-circulation.png` as the sole layout master plus the relevant zone boards. Never substitute a generic office or apartment.
+
+Before generating an approved location, derive a physically possible camera position from its plan and map visible fixed elements, adjacency, left-to-right order, operating faces, door swings, and clear circulation. A prior story image is only pose/composition guidance; aesthetic composition never authorizes moving fixtures. In Riri's lower-right L-shaped kitchen, the bottom-wall main counter runs left to right through storage/prep, stove with built-in oven, and sink. The tall silver refrigerator stays at the far-right end beside the short right-wall return, with its room-facing door and clear opening/standing space to its left. Stove controls, oven door, and sink access face the room. Do not put stove and sink on different walls, move the refrigerator, add an island, or turn an operating face toward a wall. If a shot cannot show the required elements without breaking the plan, change the camera or use close-ups instead.
+
+For a multi-image series at a canonical location, generate and inspect the first scene anchor before producing the rest. Inspect every actual final image against the plan; wording in the prompt alone does not prove compliance. Correct and recheck any critical mismatch before delivery. Never call a conflicting or unverified asset final, approved, or publish-ready; state the failure plainly if correction is not possible.
 
 For a sixteen-panel workflow, keep the master storyboard at a strict 4×4 and 2048×2048. Use the bundled deterministic script for identical crop coordinates, gutter inset, and scaling across all frames. Validate exactly sixteen 1080×1080 PNGs, a clean sixteen-PNG ZIP, and a 1080×1080 sixteen-frame infinite-loop GIF with no grid-line borders or extraction-induced movement. Source drift must be corrected in the storyboard rather than hidden during splitting.
 
