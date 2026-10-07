@@ -3,7 +3,7 @@
 > Status: Living document  
 > Primary characters: Riri / 莉莉 (Strawberry) and Nana / 楠楠 (Pineapple)
 > Primary platforms: Instagram, Facebook, and Xiaohongshu (XHS)
-> Last updated: 2026-09-30
+> Last updated: 2026-10-07
 
 ## 1. Purpose
 
@@ -454,6 +454,8 @@ Xiaohongshu supports character discovery, visual storytelling, and community int
   - Pineapple details: `../../output/characters/pineapple-plush-details.png`
 - Reference priority: the original turnaround controls identity and proportions; the five-view sheet extends viewing angles; expression, action, and detail sheets provide only their named information. A supporting pose must never replace the canonical proportions.
 - Maintain the healing-plush short-fur material, black bean eyes, warm cream face and body treatment, and soft lighting language.
+- Riri's leaf crown: **each individual leaf is itself split lengthwise into approximately equal muted-green and warm-cream halves**, from its base toward its tip. This applies to outer, side, and rear leaves in every view; no leaf may be entirely green or entirely cream. The short central stem remains green. Do not interpret the crown as alternating separate solid-green and solid-cream leaves.
+- 莉莉的叶冠：**每一片独立叶子本身都沿长度方向分为约一半柔和绿色、一半暖米色**，从叶根延伸至叶尖。正面、侧面、背面及外层叶片均适用；不得出现整片全绿或全米色叶子。短果梗保持绿色，不能把双色要求理解为单色叶片交错排列。
 - Costumes may change with the story, but the underlying silhouette and character identity must remain recognizable.
 - Strawberry's established office presentation may use a pink dress when appropriate.
 - Pineapple artwork must follow the canonical turnaround and the character standards defined for that character.

@@ -25,6 +25,8 @@
 
 每一张最终角色图、每一个分镜画格及每一段动画都必须直接引用对应 turnaround；场景图只提供姿势、服装、道具、机位和环境，不能取代角色原型。角色必须通过身份、眼睛、比例、纹样、附属结构、颜色和短绒材质检查后才可交付。Riri 睁眼时只能是完整纯黑豆豆眼及极小高光，禁止眼白、虹膜或独立瞳孔。
 
+Riri 叶冠的正式规则：每一片独立叶子本身都从叶根到叶尖沿长度方向分为约一半柔和绿色、一半暖米色；外侧、侧面和背面的叶片也一样。不得出现整片全绿或全米色叶子，不能以单色叶子交错代替。短果梗保持绿色。
+
 ### 正式场景权威
 
 - 办公室镜头必须使用办公室 master 和与镜头相关的分区板；不得生成通用办公室替代。
@@ -64,6 +66,8 @@ Every character image, environment image, social post, carousel, storyboard, GIF
 Do not rely only on conversation memory, old storyboards, action frames, GIF frames, or recent generations. If a required source is missing, conflicting, or unreadable, disclose that before generation and never claim it was referenced.
 
 Use `strawberry-plush-turnaround.png` and `pineapple-plush-turnaround.png` as the direct identity and proportion authorities for Riri and Nana respectively; use the matching scene portrait only for close material and lighting. Every final character image and storyboard frame must directly reference the relevant turnaround. Scene images may supply pose, costume, props, camera, and environment but may never replace the prototype.
+
+Riri's leaf crown has two colors within each individual leaf: approximately half muted green and half warm cream along its length from base to tip, including outer, side, and rear leaves. Never use all-green or all-cream leaves or alternate separate single-color leaves. Keep the short central stem green.
 
 Office scenes must use the canonical office boards. Riri-home scenes must use `riri-home-world-02-plan-circulation.png` as the sole layout master plus the relevant zone boards. Never substitute a generic office or apartment.
 
